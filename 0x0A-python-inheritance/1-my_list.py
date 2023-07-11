@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-Module: 1-my_list
-This is a class that inherits from list
-It prints the list, but sorted (ascending sort)
+===========================
+Module with class MyList
+===========================
 """
 
 
 class MyList(list):
-    """
-    A function that print the list in sorted ascending order
-    """
+    """Class with method print_sorted"""
+    pass
+
     def print_sorted(self):
-        new_list = self[:]
-        new_list.sort()
-        print("{}".format(new_list))
+        """Methot that sorted a list"""
+
+        print(sorted(list(self)))
